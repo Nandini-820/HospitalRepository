@@ -9,7 +9,7 @@ public partial class Surgery
 
     public int? DoctorId { get; set; }
 
-    public DateOnly SurgeryDate { get; set; }
+    public DateTime SurgeryDate { get; set; }
 
     public decimal StartTime { get; set; }
 
